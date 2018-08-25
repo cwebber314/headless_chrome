@@ -1,0 +1,5 @@
+set chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+REM set src="file:///c:\cwebber\html_pdf\example.html"
+set src="c:\cwebber\html_pdf\example.html"
+set dst="c:\cwebber\html_pdf\example.pdf"
+%chrome% --headless --disable-gpu --no-margins --print-to-pdf=%dst% "%src%"
